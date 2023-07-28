@@ -26,4 +26,7 @@ setup(
         "rich>=13.4.1",
         "python-dateutil>=2.8.2",
     ],
+    package_data={
+        "simpleaichat": ["py.typed"]
+    },
 )
