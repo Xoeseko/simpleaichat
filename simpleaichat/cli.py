@@ -1,4 +1,3 @@
-import fire
 import os
 from getpass import getpass
 from .simpleaichat import AIChat
@@ -22,4 +21,4 @@ def interactive_chat():
     _ = AIChat(ARGS.character, ARGS.character_command, ARGS.prime)
 
 if __name__ == "__main__":
-    fire.Fire(interactive_chat)
+    interactive_chat()
